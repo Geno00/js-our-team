@@ -31,4 +31,9 @@ const Team = [
     
              ];
 
-             
+const teamDom = document.getElementById('container');
+
+for (let chiave in Team) {
+    teamDom.innerHTML += `<div class="elementi">${Team}</div>`
+    console.log(teamDom)
+};
