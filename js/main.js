@@ -33,7 +33,13 @@ const Team = [
 
 const teamDom = document.getElementById('container');
 
-for (let chiave in Team) {
-    teamDom.innerHTML += `<div class="elementi">${Team}</div>`
-    console.log(teamDom)
+for (let i = 0; i <= Team.length; i++) {
+
+  for (let i = 0; i <= Team.length; i++) {
+
+    teamDom.innerHTML = (Team);
+  }  
+
 };
+
+console.log(Team);
